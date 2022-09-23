@@ -1,0 +1,103 @@
+BASICS
+
+Main Method
+
+public static void main(String args[]) { }
+------------------------------------------
+Data Types
+
+byte test = 127; (1 byte whole numbers)
+short test = 32767 (2 byte whole numbers)
+int test = 2147483647; (4 byte whole numbers)
+float test = 1.000000f; (4 bytes fractional)
+long test = 9223372036854775807; (8 byte whole numbers)
+double test = 1.00000000000000; (8 bytes fractional)
+
+
+boolean test = true; (true or false)
+
+String testTest = "Hello World!";
+char testTestAgain = 'D';
+
+Non primitive types are not predefined, and can be written by you.
+ex. Car test = new Car();
+
+------------------------------------------
+Comment Types
+
+// This is a basic comment
+/* This is a multi lined comment */
+
+------------------------------------------
+Basic Operators
+
++
+-
+*
+/
+()
+++ (increment)
+-- (decrement)
+% (division remainder)
+
+------------------------------------------
+Assignment Operators
+= (set)
++= (add then set)
+-= (subtract then set)
+*= (multiply then set)
+/= (divide then set)
+%= (find remainder then set. ex. x%=3 is  x = x%3)
+|= (x = x | 3 )
+^= (square then set)
+>>= (x = x >> 3)
+<<= (x = x << 3)
+
+------------------------------------------
+Comparison Operators
+
+== (equal comparison)
+&& (and)
+|| (or)
+! (not)
+
+------------------------------------------
+String outputs
+
+System.out.print("test");
+System.out.println("test");
+
+------------------------------------------
+Math
+
+Math.min(x, y);
+Math.max(x, y);
+Math.sqrt(x, y);
+Math.abs(x, y);
+Math.random();
+
+------------------------------------------
+Java Methods
+
+public
+protected
+private
+
+follow with
+
+int, string, boolean, etc (can use void if no return type)
+
+follow with
+
+Name of Method
+
+finally follow with
+
+(values)
+
+public int test(int x, int y) {}
+
+-----------------------------------------------------------------------
+ADVANCED
+
+------------------------------------------
