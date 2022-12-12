@@ -42,7 +42,7 @@
               <a href="#introductions" class="nav-link">Introductions</a>
             </li>
             <li class="nav-item">
-              <a href="#Syntax" class="nav-link">Syntax</a>
+              <a href="#output" class="nav-link">Output</a>
             </li>
             <li class="nav-item">
               <a href="#comments" class="nav-link">Comments</a>
@@ -54,6 +54,12 @@
         
         <li class="nav-item">
           <a href="#operators" class="nav-link">Operators</a>
+        </li>
+        <li class="nav-item">
+          <a href="#math" class="nav-link">Math</a>
+        </li>
+        <li class="nav-item">
+          <a href="#ifelse" class="nav-link">If/Else</a>
         </li>
         <li class="nav-item">
           <a href="#loops" class="nav-link">Loop Types</a>
@@ -70,9 +76,9 @@
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
           <div>
-            <h1>Welcome To <span class="" style="color:rgb(53, 187, 82)"> Python </span></h1>
+            <h1>Welcome To <span class="" style="color:blueviolet"> C# </span></h1>
             <p class="lead my-4">
-              Welcome to the Python section of our library, please use our material to your heart's content
+              Welcome to the C# section of our library, please use our material to your heart's content
             </p>
             
           </div>
@@ -107,12 +113,12 @@
             
           </div>
           <div class="col-md p-5">
-            <h2>Why Python?</h2>
+            <h2>Why C#</h2>
             <p class="lead">
-              Python is currently one of the most popular programming languages
+              C# is one of the easiest and best programming languages to learn early on, and can be used for so many projects.
             </p>
             <p>
-              It is commonly used for web application development, file handling, database handling, and more!
+              Some examples of C# in practice are creating mobile applications, desktop applications, web applications, web services, websites, games, virtual reality technology, and much more!
             </p>
             
           </div>
@@ -120,25 +126,19 @@
       </div>
     </section>
 
-    <section id="Syntax" class="p-5 bg-dark text-light">
+    <section id="output" class="p-5 bg-dark text-light">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-5">
-            <h2>Python's Syntax</h2>
+            <h2>Output</h2>
             <p class="lead">
-              Python can be ran directly in your command line, or you can execute it in your console by executing a .py file.
+              The simplest way to make something output in your C# program is to use:<br><br>
+
+              Console.write("Hello World!");<br><br>
+
+              Very similar to C# and python.
               
             </p>
-            <p>
-              <br>Indentation is very important in Python, it's how the language understands what is considered a 'block of code'.<br><br>
-
-              An example:<br><br>
-
-              if 1 > 0:
-            </p>
-            <p style="margin-left:10%; margin-right:10%;">
-              
-              print("Who would've known one is greater than zero?")</p>
           </div>
           <div class="col-md">
             
@@ -156,11 +156,15 @@
           <div class="col-md p-5">
             <h2>How to Make a Comment</h2>
             <p class="lead">
-              Unlike Java, python only really has one technical way to make comments<br>
-              <br># This is a comment example<br>
-              # but this is a multi line comment now, same way as creating a single line comment.
+              There are two types of comments in C#.<br>
+              A single line comment starts with //<br>
+              and a multi line comment begins with /** and ends with **/
             </p>
-            
+            <p>
+              // This is a single line comment<br>
+              /*And this is a multi<br>
+              line comment, exactly the same as C#*/
+            </p>
             
           </div>
         </div>
@@ -171,18 +175,14 @@
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-5">
-            <h2>Python Data Types</h2>
+            <h2>The Primary C# Data Types</h2>
             <p class="lead">
-              Python variables are very simple. You can simple identify the variable with its name, then use a number, string, etc to identify what type it is. Example:<br><br>
-
-              x = 5<br>
-              x is now an int variable.<br><br>
-
-              We can change x to another variable type by simply re-identifying it to<br>
-              x = "Pizzarolls"<br>
-              Now x is a string.<br><br>
-
-              By creating variables, you can use data types such as integers, floats, booleans, strings, etc. Most data types being the same as <a href="Java.html" class="" style="color:coral">Java's</a> data types.
+              <b>Numeral data types in order of size:</b><br>
+              byte<br>short<br>int<br>long<br><br>float<br>double<br>
+            </p>
+            <p class="lead">
+              <b>Letter data types and others:</b><br>
+              boolean<br>char<br>String
             </p>
           </div>
           <div class="col-md">
@@ -199,9 +199,9 @@
             
           </div>
           <div class="col-md p-5">
-            <h2>Python Operators</h2>
+            <h2>C# Operators</h2>
             <p class="lead">
-              + Addition<br>- Subtraction<br>* Multiplication<br>/ Division<br>% Remainder<br>** Exponential
+              + Addition<br>- Subtraction<br>* Multiplication<br>/ Division<br>% Remainder<br>++ Increment<br>-- Decrement
             </p>
             
             
@@ -209,19 +209,54 @@
         </div>
       </div>
     </section>
+
+    <section id="math" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>C# Math Examples</h2>
+            <p class="lead">
+              Math.min(x, y)<br>Math.max(x, y)<br>Math.sqrt(x, y)<br>Math.abs(x, y)<br>Math.random()*101 [0-100]<br>
+            </p>
+            
+          </div>
+          <div class="col-md">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ifelse" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            
+          </div>
+          <div class="col-md p-5">
+            <h2>If/Else/Else If</h2>
+            <p class="lead">
+              If Else statements are one of the most commonly used C# functions.
+            </p>
+            <p>
+              if(x==6){<br>x++<br>} else {<br>x--<br>}
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="loops" class="p-5 bg-dark text-light">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-5">
             <h2>Loops</h2>
             <p class="lead">
-              <br><b>While Loop Example:</b><br><br>x = 5<br>y = 3<br>while(x > y)<br>
-              
+              <br><b>While Loop Example:</b><br><br>while(x==y){<br>x++;<br>}<br><br>do{<br>x+1;<br>}<br>while(x!=y);
             </p>
-            <p class="lead" style="margin-left:10%; margin-right:10%;">y += 1</p>
             <p class="lead">
-              <b>For Loop Example:</b><br><br>x = 4<br>y = 2<br>for x in 4:<br>
-              <p class="lead" style="margin-left:10%; margin-right:10%;">print(x)</p>
+              <b>For Loop Example:</b><br><br>for(i=1; i==1; i++) {<br>System.out.println("One");<br>}
             </p>
           </div>
           <div class="col-md">
